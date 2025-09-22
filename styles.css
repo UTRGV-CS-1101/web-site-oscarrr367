@@ -1,0 +1,40 @@
+h1 {
+    color:blue;
+    font-weight: 100;
+}
+
+h2 {
+    color: red;
+}
+
+a {
+    color: black;
+    font-weight: 100;
+}
+
+a:hover {
+    color: blue;
+    font-weight: 900;
+}
+
+.thisclass {
+    font-size: x-large;
+    color: purple;
+}
+
+.funfact {
+    width: 10%;
+    color: tomato;
+    font-style: italic;
+    text-decoration: dashed;
+}
+#fact1 {
+    color: black;
+}
+
+#special {
+    font-style: oblique;
+}
+#special2 {
+
+}
