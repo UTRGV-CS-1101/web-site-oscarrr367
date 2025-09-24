@@ -1,40 +1,43 @@
-h1 {
-    color:blue;
-    font-weight: 100;
+/* Center everything and set font */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
-h2 {
-    color: red;
-}
-
-a {
-    color: black;
-    font-weight: 100;
-}
-
-a:hover {
-    color: blue;
-    font-weight: 900;
-}
-
-.thisclass {
-    font-size: x-large;
-    color: purple;
-}
-
+/* Fun fact boxes */
 .funfact {
-    width: 10%;
-    color: tomato;
-    font-style: italic;
-    text-decoration: dashed;
-}
-#fact1 {
-    color: black;
+    background-color: crimson;
+    width: 300px;
+    margin: 10px auto; /* center the div */
+    padding: 10px;
+    border-radius: 50px;
 }
 
-#special {
-    font-style: oblique;
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 8px; /* optional: rounded image */
 }
-#special2 {
 
+/* Links */
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn blue */
+}
+
+/* LinkedIn icon hover effect */
+a i:hover {
+    color: #005582;
+}
+
+/* Button style */
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
 }
